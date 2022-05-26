@@ -1,0 +1,14 @@
+{
+    "name": "rust-env",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "rust-env",
+    "workspaceFolder": "/rust-env/",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "donjayamanne.githistory",
+        "rust-lang.rust-analyzer"
+    ],
+    "settings": {
+        "editor.formatOnSave": true,
+    }
+}

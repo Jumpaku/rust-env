@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+  rust-env:
+    build: './'
+    volumes: 
+      - './../:/rust-env/:delegated'
+    command: ["sleep", "infinity"]
