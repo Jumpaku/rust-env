@@ -6,7 +6,7 @@
     "shutdownAction": "stopCompose",
     "extensions": [
         "donjayamanne.githistory",
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust"
     ],
     "settings": {
         "editor.formatOnSave": true,
